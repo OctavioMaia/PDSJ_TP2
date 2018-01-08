@@ -3,12 +3,14 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.lang.System.out;
 import static java.util.stream.Collectors.toList;
 
 import tests.T1;
+import tests.T2;
 import tests.Test;
 import utils.TransCaixa;
 
@@ -101,7 +103,27 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Test[] tests = Arrays.stream(files).map(Main::setup).map(T1::new).toArray(Test[]::new);
+        if (args.length < 1) {
+            out.println("Usage: bjs [test number]");
+            System.exit(1);
+        }
+
+        int testNumber = Integer.valueOf(args[0]);
+
+        List<List<TransCaixa>> transactions = Arrays.stream(files).map(Main::setup).collect(Collectors.toList());
+        Test[] tests = null;
+
+        if (testNumber == 1) {
+            tests = transactions.stream().map(T1::new).toArray(Test[]::new);
+        } else if (testNumber == 2) {
+            tests = transactions.stream().map(T2::new).toArray(Test[]::new);
+        }
+
+        if (tests == null) {
+            out.print("The number of specified test is invalid");
+            System.exit(2);
+        }
+
         printTable(runTests(tests));
     }
 }
