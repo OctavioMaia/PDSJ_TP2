@@ -31,9 +31,9 @@ public class T3 implements Test {
     public Map<String, Supplier<?>> indicators() {
         Map<String, Supplier<?>> indicators = new LinkedHashMap<>();
 
-        indicators.put("uniqueArray", this::uniqueArray);
-        indicators.put("uniqueList", this::uniqueList);
-        indicators.put("uniqueIntStream", this::uniqueIntStream);
+        indicators.put("(1) uniqueArray", this::uniqueArray);
+        indicators.put("(2) uniqueList", this::uniqueList);
+        indicators.put("(3) uniqueIntStream", this::uniqueIntStream);
 
         return indicators;
     }

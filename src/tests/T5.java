@@ -27,8 +27,8 @@ public class T5 implements Test {
     public Map<String, Supplier<?>> indicators() {
         Map<String, Supplier<?>> indicators = new LinkedHashMap<>();
 
-        indicators.put("sortTreeSet", this::sortTreeSet);
-        indicators.put("sortList", this::sortList);
+        indicators.put("(1) sortTreeSet", this::sortTreeSet);
+        indicators.put("(2) sortList", this::sortList);
 
 
         return indicators;

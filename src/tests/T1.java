@@ -31,11 +31,11 @@ public class T1 implements Test {
     public Map<String, Supplier<?>> indicators() {
         Map<String, Supplier<?>> indicators = new LinkedHashMap<>();
 
-        indicators.put("sumArray", this::sumArray);
-        indicators.put("sumDoubleStream", this::sumDoubleStream);
-        indicators.put("sumDoubleStreamP", this::sumDoubleStreamP);
-        indicators.put("sumStream", this::sumStream);
-        indicators.put("sumStreamP", this::sumStreamP);
+        indicators.put("(1) sumArray", this::sumArray);
+        indicators.put("(2) sumDoubleStream", this::sumDoubleStream);
+        indicators.put("(3) sumDoubleStreamP", this::sumDoubleStreamP);
+        indicators.put("(4) sumStream", this::sumStream);
+        indicators.put("(5) sumStreamP", this::sumStreamP);
 
         return indicators;
     }

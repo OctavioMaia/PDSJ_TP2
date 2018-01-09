@@ -28,10 +28,10 @@ public class T2 implements Test {
     public Map<String, Supplier<?>> indicators() {
         Map<String, Supplier<?>> indicators = new LinkedHashMap<>();
 
-        indicators.put("byDateList", this::byDateList);
-        indicators.put("byDateSet", this::byDateSet);
-        indicators.put("byDateStream", this::byDateStream);
-        indicators.put("byDateStreamP", this::byDateStreamP);
+        indicators.put("(1) byDateList", this::byDateList);
+        indicators.put("(2) byDateSet", this::byDateSet);
+        indicators.put("(3) byDateStream", this::byDateStream);
+        indicators.put("(4) byDateStreamP", this::byDateStreamP);
 
         return indicators;
     }

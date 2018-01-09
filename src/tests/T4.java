@@ -31,14 +31,14 @@ public class T4 implements Test {
     public Map<String, Supplier<?>> indicators() {
         Map<String, Supplier<?>> indicators = new LinkedHashMap<>();
 
-        indicators.put("divSMethodStream", this::divSMethodStream);
-        indicators.put("divSMethodStreamP", this::divSMethodStreamP);
+        indicators.put("(1) divSMethodStream", this::divSMethodStream);
+        indicators.put("(2) divSMethodStreamP", this::divSMethodStreamP);
 
-        indicators.put("divBiFunStream", this::divBiFunStream);
-        indicators.put("divBiFunStreamP", this::divBiFunStreamP);
+        indicators.put("(3) divBiFunStream", this::divBiFunStream);
+        indicators.put("(4) divBiFunStreamP", this::divBiFunStreamP);
 
-        indicators.put("divLambdaStream", this::divLambdaStream);
-        indicators.put("divLambdaStreamP", this::divLambdaStreamP);
+        indicators.put("(5) divLambdaStream", this::divLambdaStream);
+        indicators.put("(6) divLambdaStreamP", this::divLambdaStreamP);
 
         return indicators;
     }
