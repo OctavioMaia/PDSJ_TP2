@@ -15,8 +15,8 @@ public class Main {
     private static final String[] files = {
             "data/transCaixa1M.txt",
             "data/transCaixa2M.txt",
-            "data/transCaixa4M.txt",
-            "data/transCaixa8M.txt"
+     //       "data/transCaixa4M.txt",
+     //       "data/transCaixa8M.txt"
     };
 
     /**
@@ -128,7 +128,7 @@ public class Main {
         } else if (testNumber == 9) {
             tests = Arrays.stream(files).map(Main::setup).map(T9::new).toArray(Test[]::new);
         } else if (testNumber == 10) {
-
+            tests = Arrays.stream(files).map(Main::setup).map(T10::new).toArray(Test[]::new);
         } else if (testNumber == 11) {
 
         } else if (testNumber == 12) {
