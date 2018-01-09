@@ -13,12 +13,6 @@ public interface Test {
      *
      * @return
      */
-    String name();
-
-    /**
-     *
-     * @return
-     */
     default Optional<String> input() {
         return Optional.empty();
     }

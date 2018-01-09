@@ -17,10 +17,6 @@ public class T1 implements Test {
         this.transactions = transactions;
     }
 
-    @Override
-    public String name() {
-        return "Cálculo da soma dos valores de todas as transações";
-    }
 
     @Override
     public Optional<String> input() {

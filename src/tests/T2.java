@@ -15,11 +15,6 @@ public class T2 implements Test {
     }
 
     @Override
-    public String name() {
-        return "Primeiros e últimos 20% de transações de acordo com a data";
-    }
-
-    @Override
     public Optional<String> input() {
         return Optional.of(this.transactions.size() + " transactions");
     }
@@ -50,22 +45,19 @@ public class T2 implements Test {
     }
 
     public SimpleEntry<List<TransCaixa>, List<TransCaixa>> byDateSet() {
-        int i = 0, nelems = 20 * this.transactions.size() / 100;
+        int nelems = 20 * this.transactions.size() / 100;
 
-        Set<TransCaixa> sorted = new TreeSet<>(
-                Comparator.comparing(TransCaixa::getData)
+        TreeSet<TransCaixa> sorted = new TreeSet<>(
+                // Com este comparador garante-se que a lista é ordenada
+                // e não se removem os elementos iguais
+                (t1, t2) -> t1.getData().isBefore(t2.getData()) ? -1 : 1
         );
         sorted.addAll(this.transactions);
 
-        List<TransCaixa> first = new ArrayList<>();
-        List<TransCaixa> last = new ArrayList<>();
-
-        for (TransCaixa transcaixa : sorted) {
-            if ((i++) >= nelems) break;
-            first.add(transcaixa);
-        }
-
-        // TODO: last 20% of the list
+        List<TransCaixa> first = new ArrayList<>(sorted)
+                .subList(0, nelems);
+        List<TransCaixa> last = new ArrayList<>(sorted.descendingSet())
+                .subList(0, nelems);
 
         return new SimpleEntry<>(first, last);
     }

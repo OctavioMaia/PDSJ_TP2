@@ -14,11 +14,6 @@ public class T5 implements Test {
     }
 
     @Override
-    public String name() {
-        return "Comparação entre o collect para o TreeSet e a operação sort para uma List";
-    }
-
-    @Override
     public Optional<String> input() {
         return Optional.of(this.transactions.size() + " transactions");
     }
@@ -35,12 +30,14 @@ public class T5 implements Test {
     }
 
     public TreeSet<TransCaixa> sortTreeSet() {
-        Comparator<TransCaixa> byDate = Comparator.comparing(TransCaixa::getData);
+        Comparator<TransCaixa> byDate =
+                // Com este comparador garante-se que a lista fica ordenada
+                // e nao se removem os elementos iguais
+                (t1, t2) -> t1.getData().isBefore(t2.getData()) ? -1 : 1;
 
         return this.transactions.stream()
                 .collect(Collectors.toCollection(
-                        () -> new TreeSet<>(byDate))
-                );
+                        () -> new TreeSet<>(byDate)));
     }
 
     public List<TransCaixa> sortList() {

@@ -18,11 +18,6 @@ public class T3 implements Test {
     }
 
     @Override
-    public String name() {
-        return "Cálculo do esforço de eliminação de duplicados";
-    }
-
-    @Override
     public Optional<String> input() {
         return Optional.of(this.values.length + " random numbers");
     }

@@ -119,6 +119,20 @@ public class Main {
             tests = Stream.of(1000000, 2000000, 4000000, 8000000).map(T4::new).toArray(Test[]::new);
         } else if (testNumber == 5) {
             tests = Arrays.stream(files).map(Main::setup).map(T5::new).toArray(Test[]::new);
+        } else if (testNumber == 6) {
+
+        } else if (testNumber == 7) {
+
+        } else if (testNumber == 8) {
+            tests = Arrays.stream(files).map(Main::setup).map(T8::new).toArray(Test[]::new);
+        } else if (testNumber == 9) {
+
+        } else if (testNumber == 10) {
+
+        } else if (testNumber == 11) {
+
+        } else if (testNumber == 12) {
+
         }
 
         if (tests == null) {

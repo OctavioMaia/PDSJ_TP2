@@ -17,10 +17,6 @@ public class T4 implements Test {
         }
     }
 
-    @Override
-    public String name() {
-        return "Comparação entre a aplicação de método estático, BiFunction e Lambda";
-    }
 
     @Override
     public Optional<String> input() {
