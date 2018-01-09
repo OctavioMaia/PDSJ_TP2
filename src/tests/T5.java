@@ -25,7 +25,6 @@ public class T5 implements Test {
         indicators.put("(1) sortTreeSet", this::sortTreeSet);
         indicators.put("(2) sortList", this::sortList);
 
-
         return indicators;
     }
 
