@@ -4,26 +4,36 @@
     <bookmark url="file://$PROJECT_DIR$/src/tests/T8.java" line="53" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef52992-13ef-440b-ae6d-e2bae5d325ed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/report/t10.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tests/T10.java" />
+    <list default="true" id="aef52992-13ef-440b-ae6d-e2bae5d325ed" name="Default" comment="Added charts generated from excel">
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/graficos.xlsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t01-2.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t01.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t02-2.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t02.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t03-2.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t03.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t04-2.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t04.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t05-2.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t05.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t08-2.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/report/charts/t08.PNG" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bjs.jar" afterPath="$PROJECT_DIR$/bjs.jar" />
       <change beforePath="$PROJECT_DIR$/report/report.pdf" afterPath="$PROJECT_DIR$/report/report.pdf" />
-      <change beforePath="$PROJECT_DIR$/report/t1.csv" afterPath="$PROJECT_DIR$/report/t01.csv" />
-      <change beforePath="$PROJECT_DIR$/report/t1.md" afterPath="$PROJECT_DIR$/report/t01.md" />
-      <change beforePath="$PROJECT_DIR$/report/t2.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t2.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t3.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t3.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t4.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t4.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t5.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t5.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t8.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t8.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/t9.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change beforePath="$PROJECT_DIR$/report/t01.csv" afterPath="$PROJECT_DIR$/report/t01.csv" />
+      <change beforePath="$PROJECT_DIR$/report/t01.md" afterPath="$PROJECT_DIR$/report/t01.md" />
+      <change beforePath="$PROJECT_DIR$/report/t02.csv" afterPath="$PROJECT_DIR$/report/t02.csv" />
+      <change beforePath="$PROJECT_DIR$/report/t02.md" afterPath="$PROJECT_DIR$/report/t02.md" />
+      <change beforePath="$PROJECT_DIR$/report/t03.csv" afterPath="$PROJECT_DIR$/report/t03.csv" />
+      <change beforePath="$PROJECT_DIR$/report/t03.md" afterPath="$PROJECT_DIR$/report/t03.md" />
+      <change beforePath="$PROJECT_DIR$/report/t04.csv" afterPath="$PROJECT_DIR$/report/t04.csv" />
+      <change beforePath="$PROJECT_DIR$/report/t04.md" afterPath="$PROJECT_DIR$/report/t04.md" />
+      <change beforePath="$PROJECT_DIR$/report/t05.csv" afterPath="$PROJECT_DIR$/report/t05.csv" />
+      <change beforePath="$PROJECT_DIR$/report/t05.md" afterPath="$PROJECT_DIR$/report/t05.md" />
+      <change beforePath="$PROJECT_DIR$/report/t08.csv" afterPath="$PROJECT_DIR$/report/t08.csv" />
+      <change beforePath="$PROJECT_DIR$/report/t08.md" afterPath="$PROJECT_DIR$/report/t08.md" />
+      <change beforePath="$PROJECT_DIR$/report/t09.md" afterPath="$PROJECT_DIR$/report/t09.md" />
+      <change beforePath="$PROJECT_DIR$/report/t10.md" afterPath="$PROJECT_DIR$/report/t10.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,7 +166,7 @@
             <entry file="file://$PROJECT_DIR$/src/tests/T10.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="360">
-                  <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+                  <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#364#365#0" expanded="true" />
@@ -173,7 +183,31 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
                   <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-                  <folding />
+                  <folding>
+                    <marker date="1508941725000" expanded="false" signature="0:104" ph="/.../" />
+                    <marker date="1508941725000" expanded="false" signature="133:734" ph="..." />
+                    <marker date="1508941725000" expanded="true" signature="1021:1028" ph="{}" />
+                    <marker date="1508941725000" expanded="true" signature="1068:1264" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="1322:1951" ph="{...}" />
+                    <marker date="1508941725000" expanded="false" signature="1978:1989" ph=" { " />
+                    <marker date="1508941725000" expanded="false" signature="2015:2021" ph=" }" />
+                    <marker date="1508941725000" expanded="true" signature="2088:2222" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="2276:2472" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="2523:2618" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="2660:2755" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="2802:3106" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="3143:3251" ph="{...}" />
+                    <marker date="1508941725000" expanded="false" signature="3288:3299" ph=" { " />
+                    <marker date="1508941725000" expanded="false" signature="3333:3339" ph=" }" />
+                    <marker date="1508941725000" expanded="true" signature="3381:3632" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="3661:3896" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="3925:4160" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="4210:4911" ph="{...}" />
+                    <marker date="1508941725000" expanded="false" signature="4951:4962" ph=" { " />
+                    <marker date="1508941725000" expanded="false" signature="4999:5005" ph=" }" />
+                    <marker date="1508941725000" expanded="true" signature="5054:5282" ph="{...}" />
+                    <marker date="1508941725000" expanded="true" signature="5334:5612" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -484,7 +518,7 @@
       <workItem from="1515432316826" duration="257000" />
       <workItem from="1515435545438" duration="9428000" />
       <workItem from="1515492902582" duration="17957000" />
-      <workItem from="1515528027779" duration="7642000" />
+      <workItem from="1515528027779" duration="8202000" />
     </task>
     <task id="LOCAL-00001" summary="Added Test #2">
       <created>1515440269365</created>
@@ -542,15 +576,21 @@
       <option name="project" value="LOCAL" />
       <updated>1515536085026</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added #10">
+      <created>1515539233604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1515539233604</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92455000" />
+    <option name="totallyTimeSpent" value="93015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -565,7 +605,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.155625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.155625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -627,7 +667,9 @@
     <MESSAGE value="Fixed #2 and #5. Added #8" />
     <MESSAGE value="Added #9" />
     <MESSAGE value="Added #9 report part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added #9 report part" />
+    <MESSAGE value="Added #10" />
+    <MESSAGE value="Added charts generated from excel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added charts generated from excel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,6 +847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,17 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/t01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="505">
-            <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/t10.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1040,7 +1072,7 @@
     <entry file="file://$PROJECT_DIR$/src/tests/T10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
@@ -1051,11 +1083,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/report/t01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="505">
+            <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk/jre/lib/rt.jar!/java/time/Month.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1508941725000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1508941725000" expanded="false" signature="133:734" ph="..." />
+            <marker date="1508941725000" expanded="true" signature="1021:1028" ph="{}" />
+            <marker date="1508941725000" expanded="true" signature="1068:1264" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="1322:1951" ph="{...}" />
+            <marker date="1508941725000" expanded="false" signature="1978:1989" ph=" { " />
+            <marker date="1508941725000" expanded="false" signature="2015:2021" ph=" }" />
+            <marker date="1508941725000" expanded="true" signature="2088:2222" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="2276:2472" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="2523:2618" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="2660:2755" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="2802:3106" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="3143:3251" ph="{...}" />
+            <marker date="1508941725000" expanded="false" signature="3288:3299" ph=" { " />
+            <marker date="1508941725000" expanded="false" signature="3333:3339" ph=" }" />
+            <marker date="1508941725000" expanded="true" signature="3381:3632" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="3661:3896" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="3925:4160" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="4210:4911" ph="{...}" />
+            <marker date="1508941725000" expanded="false" signature="4951:4962" ph=" { " />
+            <marker date="1508941725000" expanded="false" signature="4999:5005" ph=" }" />
+            <marker date="1508941725000" expanded="true" signature="5054:5282" ph="{...}" />
+            <marker date="1508941725000" expanded="true" signature="5334:5612" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
