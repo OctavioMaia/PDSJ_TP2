@@ -15,8 +15,8 @@ public class Main {
     private static final String[] files = {
             "data/transCaixa1M.txt",
             "data/transCaixa2M.txt",
-            "data/transCaixa4M.txt",
-            "data/transCaixa8M.txt"
+    //        "data/transCaixa4M.txt",
+    //        "data/transCaixa8M.txt"
     };
 
     /**

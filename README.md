@@ -10,4 +10,4 @@ os 4 inputs.
 
 Gerar relatório:
 
-    pandoc report.md -o report.pdf -F pantable --top-level-division part --listings
+    pandoc *.md -o report.pdf -F pantable --top-level-division part --listings

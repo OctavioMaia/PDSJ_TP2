@@ -41,10 +41,10 @@ public class T1 implements Test {
     }
 
     public double sumArray() {
-        double[] values = new double[transactions.size()];
+        double[] values = new double[this.transactions.size()];
         int i = 0;
 
-        for (TransCaixa transaction : transactions) {
+        for (TransCaixa transaction : this.transactions) {
             values[i++] = transaction.getValor();
         }
 
@@ -58,22 +58,22 @@ public class T1 implements Test {
     }
 
     public double sumDoubleStream() {
-        DoubleStream values = transactions.stream().mapToDouble(TransCaixa::getValor);
+        DoubleStream values = this.transactions.stream().mapToDouble(TransCaixa::getValor);
         return values.sum();
     }
 
     public double sumDoubleStreamP() {
-        DoubleStream values = transactions.parallelStream().mapToDouble(TransCaixa::getValor);
+        DoubleStream values = this.transactions.parallelStream().mapToDouble(TransCaixa::getValor);
         return values.sum();
     }
 
     public double sumStream() {
-        Stream<Double> values = transactions.stream().map(TransCaixa::getValor);
+        Stream<Double> values = this.transactions.stream().map(TransCaixa::getValor);
         return values.reduce(0.0, (a,b) -> a + b);
     }
 
     public double sumStreamP() {
-        Stream<Double> values = transactions.parallelStream().map(TransCaixa::getValor);
+        Stream<Double> values = this.transactions.parallelStream().map(TransCaixa::getValor);
         return values.reduce(0.0, (a,b) -> a + b);
     }
 }

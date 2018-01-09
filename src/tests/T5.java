@@ -15,7 +15,7 @@ public class T5 implements Test {
 
     @Override
     public String name() {
-        return "";
+        return "Comparação entre o collect para o TreeSet e a operação sort para uma List";
     }
 
     @Override
