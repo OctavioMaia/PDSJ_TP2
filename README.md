@@ -1,9 +1,9 @@
 # Benchmarking JAVA Streams
 
 
-Correr o teste 1:
+Executar:
 
-    java -jar bjs.jar 1
+    java -jar bjs.jar [1-12]
 
 Cada teste gera no `STDOUT` um `CSV` que contém os resultados dos testes para
 os 4 inputs.

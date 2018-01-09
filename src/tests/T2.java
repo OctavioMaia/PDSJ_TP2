@@ -28,10 +28,10 @@ public class T2 implements Test {
     public Map<String, Supplier<?>> indicators() {
         Map<String, Supplier<?>> indicators = new LinkedHashMap<>();
 
-        indicators.put("List <TransCaixa>", this::byDateList);
-        indicators.put("Set <TransCaixa>", this::byDateSet);
-        indicators.put("Stream <TransCaixa>", this::byDateStream);
-        indicators.put("Stream <TransCaixa> (parallel)", this::byDateStreamParallel);
+        indicators.put("byDateList", this::byDateList);
+        indicators.put("byDateSet", this::byDateSet);
+        indicators.put("byDateStream", this::byDateStream);
+        indicators.put("byDateStreamP", this::byDateStreamP);
 
         return indicators;
     }
@@ -65,7 +65,7 @@ public class T2 implements Test {
             first.add(transcaixa);
         }
 
-        // TODO: last
+        // TODO: last 20% of the list
 
         return new SimpleEntry<>(first, last);
     }
@@ -85,7 +85,7 @@ public class T2 implements Test {
         return new SimpleEntry<>(first, last);
     }
 
-    public SimpleEntry<List<TransCaixa>, List<TransCaixa>> byDateStreamParallel() {
+    public SimpleEntry<List<TransCaixa>, List<TransCaixa>> byDateStreamP() {
         int nelems = 20 * this.transactions.size() / 100;
 
         List<TransCaixa> first = this.transactions.stream()

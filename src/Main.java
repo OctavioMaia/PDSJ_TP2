@@ -9,9 +9,7 @@ import java.util.stream.Stream;
 import static java.lang.System.out;
 import static java.util.stream.Collectors.toList;
 
-import tests.T1;
-import tests.T2;
-import tests.Test;
+import tests.*;
 import utils.TransCaixa;
 
 public class Main {
@@ -110,13 +108,18 @@ public class Main {
 
         int testNumber = Integer.valueOf(args[0]);
 
-        List<List<TransCaixa>> transactions = Arrays.stream(files).map(Main::setup).collect(Collectors.toList());
         Test[] tests = null;
 
         if (testNumber == 1) {
-            tests = transactions.stream().map(T1::new).toArray(Test[]::new);
+            tests = Arrays.stream(files).map(Main::setup).map(T1::new).toArray(Test[]::new);
         } else if (testNumber == 2) {
-            tests = transactions.stream().map(T2::new).toArray(Test[]::new);
+            tests = Arrays.stream(files).map(Main::setup).map(T2::new).toArray(Test[]::new);
+        } else if (testNumber == 3) {
+            tests = Stream.of(1000000, 2000000, 4000000, 8000000).map(T3::new).toArray(Test[]::new);
+        } else if (testNumber == 4) {
+            tests = Stream.of(1000000, 2000000, 4000000, 8000000).map(T4::new).toArray(Test[]::new);
+        } else if (testNumber == 5) {
+            tests = Arrays.stream(files).map(Main::setup).map(T5::new).toArray(Test[]::new);
         }
 
         if (tests == null) {

@@ -31,16 +31,16 @@ public class T1 implements Test {
     public Map<String, Supplier<?>> indicators() {
         Map<String, Supplier<?>> indicators = new LinkedHashMap<>();
 
-        indicators.put("(1) double[]", this::sumValuesArray);
-        indicators.put("(2) Double Stream", this::sumValuesDoubleStream);
-        indicators.put("(3) Double Stream (parallel)", this::sumValuesDoubleStreamParallel);
-        indicators.put("(4) Stream <Double>", this::sumValuesStream);
-        indicators.put("(5) Stream <Double> (parallel)", this::sumValuesStreamParalell);
+        indicators.put("sumArray", this::sumArray);
+        indicators.put("sumDoubleStream", this::sumDoubleStream);
+        indicators.put("sumDoubleStreamP", this::sumDoubleStreamP);
+        indicators.put("sumStream", this::sumStream);
+        indicators.put("sumStreamP", this::sumStreamP);
 
         return indicators;
     }
 
-    public double sumValuesArray() {
+    public double sumArray() {
         double[] values = new double[transactions.size()];
         int i = 0;
 
@@ -57,22 +57,22 @@ public class T1 implements Test {
         return sum;
     }
 
-    public double sumValuesDoubleStream() {
+    public double sumDoubleStream() {
         DoubleStream values = transactions.stream().mapToDouble(TransCaixa::getValor);
         return values.sum();
     }
 
-    public double sumValuesDoubleStreamParallel() {
+    public double sumDoubleStreamP() {
         DoubleStream values = transactions.parallelStream().mapToDouble(TransCaixa::getValor);
         return values.sum();
     }
 
-    public double sumValuesStream() {
+    public double sumStream() {
         Stream<Double> values = transactions.stream().map(TransCaixa::getValor);
         return values.reduce(0.0, (a,b) -> a + b);
     }
 
-    public double sumValuesStreamParalell() {
+    public double sumStreamP() {
         Stream<Double> values = transactions.parallelStream().map(TransCaixa::getValor);
         return values.reduce(0.0, (a,b) -> a + b);
     }
