@@ -1,4 +1,4 @@
-"Input","(1) sumArray","(2) sumDoubleStream","(3) sumDoubleStreamP","(4) sumStream","(5) sumStreamP",
+"Input","(1) sum Array","(2) sum DoubleStream","(3) sum DoubleStreamP","(4) sum Stream","(5) sum StreamP",
 "1000000 transactions","0,010215","0,010794","0,009364","0,026481","0,015645",
 "2000000 transactions","0,021934","0,021800","0,009912","0,053940","0,026226",
 "4000000 transactions","0,044380","0,047799","0,026682","0,113063","0,051981",

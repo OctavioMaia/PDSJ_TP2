@@ -34,7 +34,7 @@ public class T3 implements Test {
     }
 
     public Integer[] uniqueArray() {
-        Set<Integer> nodups = new TreeSet<>();
+        Set<Integer> nodups = new HashSet<>();
         for (int value : this.values) {
             nodups.add(value);
         }
