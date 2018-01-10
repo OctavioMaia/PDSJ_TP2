@@ -1,0 +1,5 @@
+"Input","(1) totalByBox","(2) totalByBoxConcurrent",
+"1000000 transactions","0,288725","0,245084",
+"2000000 transactions","0,511240","0,520865",
+"4000000 transactions","1,032625","1,168777",
+"8000000 transactions","2,270371","2,147356",
