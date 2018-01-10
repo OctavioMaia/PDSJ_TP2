@@ -29,7 +29,7 @@ public class T8 implements Test {
         return indicators;
     }
 
-    String biggestTransaction7() {
+    public String biggestTransaction7() {
         List<TransCaixa> transactions = new ArrayList<>(this.transactions);
 
         transactions.sort(new Comparator<TransCaixa>() {
@@ -50,7 +50,7 @@ public class T8 implements Test {
         return null;
     }
 
-    Optional<String> biggestTransaction8() {
+    public Optional<String> biggestTransaction8() {
         Predicate<TransCaixa> timeInRange =  t ->
                 t.getData().getHour() >= 16 && t.getData().getHour() <= 20;
 
