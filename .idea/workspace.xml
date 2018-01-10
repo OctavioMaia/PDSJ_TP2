@@ -4,9 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/tests/T8.java" line="53" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef52992-13ef-440b-ae6d-e2bae5d325ed" name="Default" comment="">
+    <list default="true" id="aef52992-13ef-440b-ae6d-e2bae5d325ed" name="Default" comment="Started #7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/tests/T10.java" afterPath="$PROJECT_DIR$/src/tests/T10.java" />
+      <change beforePath="$PROJECT_DIR$/bjs.jar" afterPath="$PROJECT_DIR$/bjs.jar" />
+      <change beforePath="$PROJECT_DIR$/src/tests/T7.java" afterPath="$PROJECT_DIR$/src/tests/T7.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,7 +130,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="T10.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="T10.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/tests/T10.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="486">
@@ -145,19 +146,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="T7.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="T7.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/tests/T7.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4">
-                  <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+                <state relative-caret-position="576">
+                  <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#222#223#0" expanded="true" />
                     <element signature="e#270#271#0" expanded="true" />
                     <element signature="e#323#324#0" expanded="true" />
                     <element signature="e#401#402#0" expanded="true" />
-                    <element signature="e#2646#2647#0" expanded="true" />
-                    <element signature="e#2672#2673#0" expanded="true" />
+                    <element signature="e#2807#2808#0" expanded="true" />
+                    <element signature="e#2833#2834#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -247,8 +248,8 @@
         <option value="$PROJECT_DIR$/report/t01.md" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/report/t07.md" />
-        <option value="$PROJECT_DIR$/src/tests/T7.java" />
         <option value="$PROJECT_DIR$/src/tests/T10.java" />
+        <option value="$PROJECT_DIR$/src/tests/T7.java" />
       </list>
     </option>
   </component>
@@ -589,7 +590,7 @@
       <workItem from="1515432316826" duration="257000" />
       <workItem from="1515435545438" duration="9428000" />
       <workItem from="1515492902582" duration="17957000" />
-      <workItem from="1515528027779" duration="13357000" />
+      <workItem from="1515528027779" duration="14091000" />
     </task>
     <task id="LOCAL-00001" summary="Added Test #2">
       <created>1515440269365</created>
@@ -668,11 +669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515544897189</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Started #7">
+      <created>1515544921376</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1515544921376</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98170000" />
+    <option name="totallyTimeSpent" value="98904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
@@ -1203,22 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/T7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#2646#2647#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/T10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1229,6 +1221,22 @@
             <element signature="e#412#413#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/T7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#2807#2808#0" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
           </folding>
         </state>
       </provider>

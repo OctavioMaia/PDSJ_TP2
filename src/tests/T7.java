@@ -74,7 +74,11 @@ public class T7 implements Test {
     }
 
     public double sumPartitionStream() {
-        Spliterator<TransCaixa> split = this.transactions.stream().spliterator();
+        Spliterator<TransCaixa> fst = this.transactions.stream().spliterator();
+        Spliterator<TransCaixa> snd = fst.trySplit();
+        Spliterator<TransCaixa> trd = fst.trySplit();
+        Spliterator<TransCaixa> frt = snd.trySplit();
+
 
         return 0.0;
     }
