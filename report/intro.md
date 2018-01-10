@@ -25,6 +25,15 @@ Contextualização e objetivos
 
 ### Introdução {-}
 
+Pretende-se com este relatório dar a conhecer as diferenças de *performance*
+na análise de grandes sequências de dados recorrendo quer a técnicas
+tradicionais do `JAVA7` ou a técnicas mais modernas do `JAVA8` e `JAVA9`.
+
+Para tal
+
+Neste relatório, para um dos testes analisados, encontra-se o código-fonte
+que lhe diz respeito, bem como 
+
 ### Execução {-}
 
 Todos os testes deste projeto foram desenvolvidos no mesmo programa, que se
@@ -41,7 +50,7 @@ O executável pode ser descarregado diretamente
 onde `T` é o número do teste que se pretende executar.
 
 O resultado do teste será um tabela `CSV` que contém na primeira linha os
-nomes dos **indicadores** executados e na primeira coluna os nomes dos 
+nomes dos **indicadores** executados e na primeira coluna os nomes dos
 **inputs** indicados. Este `CSV` pode ser facilmente incluído numa folha de
 cálculo para melhor análise estatística do mesmo, ou numa table em formato de
 documento.
@@ -126,3 +135,11 @@ por ler o número do teste escolhido pelo utilizador e por corrê-lo com o
 
 Testes
 ======
+
+Todos os testes aqui expostos foram executados num máquina com as seguintes
+especificações:
+
+    Windows 10 Pro v1607 (64 bits)
+    Intel Core i5 4690k (4c/4t)
+    16 GB RAM
+    JDK8_144, JDK9_01
