@@ -1,3 +1,5 @@
 "Input","(1) totalInWeekList","(2) totalInWeekStream",
-"1000000 transactions","0,047309","0,071204",
-"2000000 transactions","0,088859","0,120726",
+"1000000 transactions","0,033511","0,038533",
+"2000000 transactions","0,070856","0,083489",
+"4000000 transactions","0,144393","0,163294",
+"8000000 transactions","0,284878","0,322149",
