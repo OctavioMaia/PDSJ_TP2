@@ -61,7 +61,7 @@ public class T10 implements Test {
                         e -> e.getValue().stream()
                                 .mapToDouble(TransCaixa::getValor)
                                 .map(x -> x < 20           ? 0.15 * x :
-                                         (x > 20 && x < 20 ? 0.20 * x :
+                                         (x > 20 && x < 29 ? 0.20 * x :
                                                              0.23 * x ))
                         .sum()
                 ));
