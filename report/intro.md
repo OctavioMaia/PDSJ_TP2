@@ -29,10 +29,15 @@ Pretende-se com este relatório dar a conhecer as diferenças de *performance*
 na análise de grandes sequências de dados recorrendo quer a técnicas
 tradicionais do `JAVA7` ou a técnicas mais modernas do `JAVA8` e `JAVA9`.
 
-Para tal
+Para tal criou-se um programa de ambiente de execução de testes, que permitia
+ao utilizador selecionar o teste pretendido e executá-lo, mostrando os
+resultados no `STDOUT`. A adição de novos testes é feita de forma
+*standardizada* pois todos eles seguem o mesmo formato.
 
-Neste relatório, para um dos testes analisados, encontra-se o código-fonte
-que lhe diz respeito, bem como 
+Neste relatório, para cada um dos testes analisados, encontra-se ocódigo-fonte
+que lhe diz respeito, bem como os resultados da sua execução para cada
+`input`. Esses resultados são demonstrados em formato tabular e em formato
+gráfico sendo efetivamente comentados e analisados.
 
 ### Execução {-}
 
