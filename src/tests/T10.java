@@ -43,7 +43,7 @@ public class T10 implements Test {
             Month month = transaction.getData().getMonth();
             Double value = transaction.getValor();
             Double iva = value < 20               ? 0.15 * value :
-                        (value > 20 && value < 20 ? 0.20 * value :
+                        (value > 20 && value < 29 ? 0.20 * value :
                                                     0.23 * value);
             ivas.set(month.getValue(), ivas.get(month.getValue()) + iva);
         }
