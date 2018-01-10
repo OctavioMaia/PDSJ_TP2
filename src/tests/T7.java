@@ -4,6 +4,8 @@ import utils.TransCaixa;
 
 import java.util.*;
 import java.util.function.Supplier;
+import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
 public class T7 implements Test {
     private List<TransCaixa> transactions;
@@ -74,13 +76,16 @@ public class T7 implements Test {
     }
 
     public double sumPartitionStream() {
-        Spliterator<TransCaixa> fst = this.transactions.stream().spliterator();
-        Spliterator<TransCaixa> snd = fst.trySplit();
-        Spliterator<TransCaixa> trd = fst.trySplit();
-        Spliterator<TransCaixa> frt = snd.trySplit();
+        double res = 0.0;
+        Spliterator<TransCaixa> split = this.transactions.stream().spliterator();
 
+        for (int i = 0; i < 4; i++) {
+            res += StreamSupport.stream(split.trySplit(), false)
+                    .mapToDouble(TransCaixa::getValor)
+                    .sum();
+        }
 
-        return 0.0;
+        return res;
     }
 
     public double sumStreamP() {
@@ -90,7 +95,16 @@ public class T7 implements Test {
     }
 
     public double sumPartitionStreamP() {
-        return 0.0;
+        double res = 0.0;
+        Spliterator<TransCaixa> split = this.transactions.stream().spliterator();
+
+        for (int i = 0; i < 4; i++) {
+            res += StreamSupport.stream(split.trySplit(), true)
+                    .mapToDouble(TransCaixa::getValor)
+                    .sum();
+        }
+
+        return res;
     }
 
 }
