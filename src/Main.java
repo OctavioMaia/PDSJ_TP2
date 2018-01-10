@@ -120,7 +120,7 @@ public class Main {
         } else if (testNumber == 5) {
             tests = Arrays.stream(files).map(Main::setup).map(T5::new).toArray(Test[]::new);
         } else if (testNumber == 6) {
-
+            tests = Arrays.stream(files).map(Main::setup).map(T6::new).toArray(Test[]::new);
         } else if (testNumber == 7) {
             tests = Arrays.stream(files).map(Main::setup).map(T7::new).toArray(Test[]::new);
         } else if (testNumber == 8) {
